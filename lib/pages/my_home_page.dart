@@ -36,14 +36,15 @@ class AVeryDeepWidgetTree extends StatelessWidget {
             'This is a simple Text Widget',
             style: TextStyle(
               color: Colors.black,
-              fontSize: 45.0,
+              fontSize: 25.0,
               fontWeight: FontWeight.bold,
             ),
           ),
-          //now we are going to build a very deep widget tree
-          Center(
-            child: ColumnClass(),
+          SizedBox(
+            height: 10.0,
           ),
+          //now we are going to build a very deep widget tree
+          ColumnClass(),
         ],
       ),
     );

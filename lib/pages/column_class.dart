@@ -14,6 +14,9 @@ class ColumnClass extends StatelessWidget {
 
     return Column(
       children: [
+        const SizedBox(
+          height: 10.0,
+        ),
         Text(
           '${counter.number}',
           style: const TextStyle(
@@ -21,7 +24,7 @@ class ColumnClass extends StatelessWidget {
           ),
         ),
         const SizedBox(
-          height: 10.0,
+          height: 20.0,
         ),
         FloatingActionButton(
             onPressed: (){
